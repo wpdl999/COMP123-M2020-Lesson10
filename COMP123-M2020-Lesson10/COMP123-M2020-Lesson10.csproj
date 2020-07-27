@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>COMP123_M2020_Lesson10</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="StartForm - Copy.resx">
+      <DependentUpon>StartForm - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
