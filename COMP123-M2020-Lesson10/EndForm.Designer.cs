@@ -65,6 +65,7 @@
             this.Name = "EndForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "End Form";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EndForm_FormClosing);
             this.ResumeLayout(false);
 
         }

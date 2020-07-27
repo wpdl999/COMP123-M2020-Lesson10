@@ -17,7 +17,13 @@ namespace COMP123_M2020_Lesson10
 
         private void BackButton_Click(object sender, EventArgs e)
         {
+            Program.mainForm.Show();
+            this.Hide();
+        }
 
+        private void EndForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
